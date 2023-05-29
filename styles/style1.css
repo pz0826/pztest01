@@ -1,0 +1,56 @@
+/* 
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+*/
+
+html {
+    font-size: 20px;
+    /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    font-family: "等距更纱黑体 SC", sans-serif;
+    /* 一个字体族名和一个通用字体族名 */
+}
+
+h1 {
+    
+    font-family: "华文中宋", sans-serif;
+    letter-spacing: 5px;
+    text-indent: 5px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #001930;
+    text-shadow: 3px 3px 5px rgb(221, 239, 255);
+    /*阴影水平偏移 垂直偏移 模糊半径 基色 */
+}
+
+ul {
+    background-color: #c8e5ff;
+    width: 600px;
+    margin: 0 auto;
+    /*上下、左右外边距*/
+    padding: 20px 40px 20px 40px;
+    /*上、右、下、左内边距*/
+    border: 5px solid rgb(122, 176, 230);
+}
+
+#img_universe {
+    display: block;
+    /*给予图片（行级元素）块级行为*/
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+}
+
+p{
+    text-align: center;
+}
+
+#切换用户{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height:50px;
+}
